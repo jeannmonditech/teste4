@@ -1,0 +1,11 @@
+application.code=painelWeb
+application.title=painelWeb
+application.type=widget
+application.description=Rest para consumo
+application.category=Monditech
+developer.code=monditech
+developer.name=Monditech
+developer.url=http://www.monditech.com.br
+simple.deploy=false
+application.uiwidget=false
+view.file=/index.html

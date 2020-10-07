@@ -1,0 +1,54 @@
+<div class="zoom">
+    <link rel="stylesheet" type="text/css" href="/painelWeb/zoom/pessoa/pessoa.css" />
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class=" row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><label for="localizar">Procurar</label></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="input-group">
+                                <input type="text" id="search" name="search" class="form-control input-sm" />
+                                <span class="input-group-btn">
+                                    <button id="buscar" class="btn btn-info input-sm" type="button"><span class="fluigicon fluigicon-zoom-in" style="font-size: 16px;"></span></button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <table class="table table-hover" id="tabRegistrosZoom">
+                                <thead>
+                                    <tr>
+                                        <th>Matricula</th>
+                                        <th>Nome</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="erroZoom" class="alert alert-danger" style="text-align:center; display: none;"></div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="fs-txt-center">
+                                <div class="btn-group">
+                                    <button type="button" id="pagAnterior" class="btn btn-info btn-sm"><i class="fluigicon fluigicon-chevron-left"></i></button>
+                                    <button type="button" id="pagina" class="btn btn-info btn-sm">1</button>
+                                    <button type="button" id="pagProxima" class="btn btn-info btn-sm"><i class="fluigicon fluigicon-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/painelWeb/zoom/pessoa/pessoa.js"></script>
+</div>
